@@ -19,15 +19,9 @@ paths:
           required: true
           schema:
             type: string
-<<<<<<< HEAD
 
-        - in: query
-          name: text
-          description: text to be sent
-=======
-        - name: message
+        - name: text
           in: query
->>>>>>> c5576e7df050d756916e3567b6c3e9919e52b5a1
           required: true
           schema:
             type: string
