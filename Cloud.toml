@@ -18,3 +18,7 @@ max_replicas=5
 cpu=70
 memory=80
 
+[cloud.deployment.probes.liveness]
+port=9090
+path="/sms/liveness"
+
