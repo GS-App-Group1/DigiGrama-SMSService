@@ -20,5 +20,5 @@ memory=80
 
 [cloud.deployment.probes.liveness]
 port=9090
-path="/main/liveness"
+path="/sms/liveness"
 
